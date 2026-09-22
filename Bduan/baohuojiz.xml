@@ -1,0 +1,2 @@
+<service android:name=".MonitorService"
+    android:foregroundServiceType="location|dataSync" />

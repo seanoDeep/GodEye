@@ -1,0 +1,5 @@
+{
+  "type": "command",
+  "cmd": "set_interval",    // 调整上报间隔
+  "params": { "interval": 2000 }
+}

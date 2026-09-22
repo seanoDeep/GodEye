@@ -1,0 +1,12 @@
+{
+  "type": "report",          // report | heartbeat | ack
+  "device_id": "IMEI/唯一ID",
+  "lat": 39.9042,           // 纬度
+  "lng": 116.4074,          // 经度
+  "accuracy": 10.5,         // 精度（米）
+  "screen_state": 1,        // 0息屏 1亮屏
+  "lock_state": 0,          // 0解锁 1锁屏
+  "update_time": 1715701234567, // 毫秒时间戳
+  "battery": 85,            // 可选：电量
+  "seq": 1001               // 包序号，用于去重/可靠性
+}
